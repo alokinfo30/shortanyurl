@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+.shortener {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.shortener input, button {
+  height: 30px;
+  padding: 0 10px;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+.shortener input {
+  background-color: initial;
+    border: 3px solid #333;
+    border-radius: 40px;
+    /* border-right: none; */
+    color: blue;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.5rem 0.2rem 0.5rem 0;
+    text-indent: 1rem;
+    width: 100%;
+}
+.shortener input:focus {
+  /* border: 1px solid rgb(95, 180, 245); */
+  outline: none;
+}
+.heading {
+  color: #333;
+  font-family: Poppins,sans-serif;
+  font-size: 80%;
+  font-weight: 400;
+}
+.shortener form > button {
+  background-color: #a3eee9;
+  border: 3px solid #333;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: Poppins,sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  height: 3rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+.shortener form > button:hover {
+  background-color: rgb(51, 162, 246);
+}
+.shortener__viewShot {
+  margin-top: 20px;
+  border: 2px solid #238ff7;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  color: rgb(18 18 185);
+  align-items: center;
+}
+.shortener__viewShot button {
+  background-color: #a3eee9;
+  border: 3px solid #333;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: Poppins,sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  height: 3rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.shortener__viewShot button:hover {
+  color: rgb(64, 64, 66);
+}
